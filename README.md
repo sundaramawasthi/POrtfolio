@@ -28,8 +28,7 @@ This is my personal developer portfolio built using **HTML, CSS, and JavaScript*
 
 ## 📸 Preview
 
-![Portfolio Screenshot]("Screenshot.jpg")  
-_(Add your own screenshot or link here)_
+![Portfolio Screenshot](Screenshot.jpg)
 
 ## 🔗 Live Demo
 
