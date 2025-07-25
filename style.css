@@ -94,7 +94,7 @@ nav .menu-btn,
   top: 20px;
   font-size: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   display: none;
 }
 
