@@ -491,6 +491,45 @@ footer .text span a:hover {
   display: none;
 }
 
+.youtube-box {
+  text-align: center;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.icon-circle img {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+  background-color: #f5f5f5;
+}
+
+.channel-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.youtube-box a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content {
