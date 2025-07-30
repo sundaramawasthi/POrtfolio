@@ -249,9 +249,16 @@
 </section>
 
 
+<!-- Inside body tag -->
+<p>Total Visitors: <span id="visits">Loading...</span></p>
 
-
-
+<script>
+  fetch('https://api.countapi.xyz/hit/sundramportfolios.netlify.app/visits')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('visits').innerText = data.value;
+    });
+</script>
 
 
 
