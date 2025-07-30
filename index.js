@@ -44,14 +44,6 @@ for (var i = 0; i < navLinks.length; i++) {
 
 
 
-  fetch('https://api.countapi.xyz/hit/sundramportfolios.netlify.app/visits')
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById('visits').innerText = data.value;
-    })
-    .catch(error => {
-      console.error('CountAPI Error:', error);
-      document.getElementById('visits').innerText = 'Error';
-    });
+  
 }
 
