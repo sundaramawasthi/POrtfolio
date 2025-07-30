@@ -53,6 +53,5 @@ for (var i = 0; i < navLinks.length; i++) {
       console.error('CountAPI Error:', error);
       document.getElementById('visits').innerText = 'Error';
     });
-</script>
 }
 
