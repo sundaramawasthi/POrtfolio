@@ -41,4 +41,14 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.opacity = "1";
     menuBtn.style.pointerEvents = "auto";
   });
+
+
+script>
+  fetch('https://api.countapi.xyz/hit/sundramportfolios.netlify.app/visits')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('visits').innerText = data.value;
+    });
+</script>
 }
+
